@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=DM+Serif+Display:ital@0;1&display=swap');
+
+:root {
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #243127;
+  background:
+    radial-gradient(circle at top left, rgba(199, 114, 47, 0.22), transparent 24%),
+    radial-gradient(circle at top right, rgba(31, 109, 72, 0.18), transparent 30%),
+    linear-gradient(180deg, #f9f3ea 0%, #f3efe8 45%, #efe6db 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ink-strong: #1f2a1f;
+  --ink-soft: #5c6858;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'DM Serif Display', serif;
+  color: var(--ink-strong);
+}
+
+p {
+  line-height: 1.7;
+}
